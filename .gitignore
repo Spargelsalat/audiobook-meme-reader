@@ -1,29 +1,31 @@
-# Dart/Flutter spezifisch
+# Dart/Flutter
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 build/
-.pub/
+*.lock
 
-# IDE spezifisch
+# IDE
 .idea/
 .vscode/
 *.iml
 
-# Env Files
+# Env files
 .env
-.env.local
+.env.development
+.env.production
 
-# App spezifisch
-assets/audio/*
+# Local files
 *.mp3
 *.m4a
 *.wav
+/downloads/
 
-# iOS/Android spezifisch
+# iOS
 ios/Pods/
-.ios/Flutter/.last_build_id
-android/.gradle
-android/app/debug
-android/app/profile
-android/app/release
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+
+# Android
+android/.gradle/
+android/local.properties
