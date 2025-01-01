@@ -1,0 +1,29 @@
+# Dart/Flutter spezifisch
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.pub/
+
+# IDE spezifisch
+.idea/
+.vscode/
+*.iml
+
+# Env Files
+.env
+.env.local
+
+# App spezifisch
+assets/audio/*
+*.mp3
+*.m4a
+*.wav
+
+# iOS/Android spezifisch
+ios/Pods/
+.ios/Flutter/.last_build_id
+android/.gradle
+android/app/debug
+android/app/profile
+android/app/release
